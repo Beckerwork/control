@@ -3,9 +3,9 @@
     <i class="fa fa-lock"></i>
   </span>
   <div style="text-align:center; margin-bottom:16px;">
-    <h3 style="color:#31708f; margin:0 0 6px 0;">🏃 Flucht in die Freiheit</h3>
+    <h3 style="color:#31708f; margin:0 0 6px 0;">Abschlussaufgabe</h3>
     <p style="text-align:center; margin:0; color:#31708f; font-size:14px;">
-      Wer sollte rennen, um den Knopf zu drücken?
+      Welches Kind ist schneller, als vorhergesagt werden würde?
     </p>
   </div>
   <hr style="border:none; border-top:1px solid #31708f; opacity:0.3; margin-bottom:16px;">
@@ -23,8 +23,8 @@
 
   <div id="escape-nav" style="display:none; margin-top:16px;">
     <div style="display:flex; justify-content:center; gap:8px; margin:8px 0;">
-      <a href="story_game_4.ipynb" target="_self" style="padding:10px 24px; border-radius:8px; border:2px solid #31708f; background-color:white; color:#31708f; text-decoration:none; font-weight:bold; box-shadow:0 2px 4px rgba(0,0,0,0.1);"><i class="fa fa-arrow-left"></i> &nbsp; Zurück</a>
-      <a href="story_game_6.ipynb" target="_self" style="padding:10px 24px; border-radius:8px; border:2px solid #31708f; background-color:#31708f; color:white; text-decoration:none; font-weight:bold; box-shadow:0 2px 4px rgba(0,0,0,0.1);">Weiter &nbsp;<i class="fa fa-arrow-right"></i></a>
+      <a href="learning_4.ipynb" target="_self" style="padding:10px 24px; border-radius:8px; border:2px solid #31708f; background-color:white; color:#31708f; text-decoration:none; font-weight:bold; box-shadow:0 2px 4px rgba(0,0,0,0.1);"><i class="fa fa-arrow-left"></i> &nbsp; Zurück</a>
+      <a href="learning_6.ipynb" target="_self" style="padding:10px 24px; border-radius:8px; border:2px solid #31708f; background-color:#31708f; color:white; text-decoration:none; font-weight:bold; box-shadow:0 2px 4px rgba(0,0,0,0.1);">Weiter &nbsp;<i class="fa fa-arrow-right"></i></a>
     </div>
   </div>
 </div>
@@ -53,11 +53,11 @@ setTimeout(function() {
     }
     if (selected === "Sarah") {
       feedback.style.color = "#3c763d";
-      feedback.textContent = "✅ Richtig! Sarah sollte laufen, weil sie schneller ist, als die Roboter vorhergesagt haben. Im Diagramm liegt ihr Punkt deutlich oberhalb der grünen Linie.";
+      feedback.textContent = "✅ Richtig! Sarah ist schneller, als es eine Maschine vorhersagen würde. Im Diagramm liegt ihr Punkt deutlich oberhalb der grünen Regressionsgerade.";
       nav.style.display = "block";
     } else {
       feedback.style.color = "#a94442";
-      feedback.textContent = "❌ Ben rennt so schnell er kann... aber nicht schnell genug. Er kann gerade so entkommen und zu euch zurück in den Serverraum flüchten.";
+      feedback.textContent = "❌ Diese Antwort ist leider falsch.";
       nav.style.display = "none";
     }
   }
