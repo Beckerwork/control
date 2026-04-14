@@ -33,7 +33,7 @@ def plot_data():
     fig, ax = plt.subplots(figsize=(7, 5))
     fig.canvas.header_visible = False
 
-    ax.scatter(independent_variable, dependent_variable, color=colors['dark_blue'], label='Daten der Kinder')
+    ax.scatter(independent_variable, dependent_variable, color=colors['dark_blue'], label='Daten von Kindern')
 
     ax.set_xlabel('Körpergröße (cm)')
     ax.set_ylabel('Maximale Geschwindigkeit (km/h)')
@@ -51,7 +51,7 @@ def show_plot_kids():
     fig, ax = plt.subplots(figsize=(7, 5))
     fig.canvas.header_visible = False
 
-    ax.scatter(independent_variable, dependent_variable, color=colors['dark_blue'], label='Daten der Kinder')
+    ax.scatter(independent_variable, dependent_variable, color=colors['dark_blue'], label='Daten von Kindern')
 
     named_indices = [
         (0,  "Lena",   (-2, 6)),
