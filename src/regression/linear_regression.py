@@ -104,7 +104,7 @@ def lineare_regression_big():
     fig, ax = plt.subplots(figsize=(7, 7))
     fig.canvas.header_visible = False
 
-    ax.scatter(independent_variable, dependent_variable, color=colors['dark_blue'], label='Daten der Kinder')
+    ax.scatter(independent_variable, dependent_variable, color=colors['dark_blue'], label='Daten von Kindern')
 
     x_max = max(abs(independent_variable.min()), abs(independent_variable.max())) + 5
     y_max = max(abs(dependent_variable.min()), abs(dependent_variable.max())) + 5
