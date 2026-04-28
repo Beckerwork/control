@@ -176,7 +176,7 @@ def lineare_regression_big():
             else:
                 regression_line.set_visible(True)
                 regression_line.set_label(
-                f'Roboter Gerade: Output = {ml_slope[0]:.2f}'.replace('.', ',') + f' * Input + {ml_intercept:.2f}'.replace('.', ',') + f' (Fehlerwert: {ml_mse:.2f})'.replace('.', ','))
+                f'Machine Learning Gerade: Output = {ml_slope[0]:.2f}'.replace('.', ',') + f' * Input + {ml_intercept:.2f}'.replace('.', ',') + f' (Fehlerwert: {ml_mse:.2f})'.replace('.', ','))
         else:
             regression_line.set_visible(False)
             regression_line.set_label('')

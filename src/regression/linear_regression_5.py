@@ -21,7 +21,7 @@ def zeige_lineare_regression_5():
     regression_line, = ax.plot(independent_variable, ml_predictions, color=colors['green'], linestyle='-', label='',
                                visible=True)
     regression_line.set_label(
-        f'Roboter Gerade: Output = {ml_slope[0]:.2f}'.replace('.', ',') +
+        f'Machine Learning Gerade: Output = {ml_slope[0]:.2f}'.replace('.', ',') +
         f' * Input + {ml_intercept:.2f}'.replace('.', ',') +
         f' (Fehlerwert: {ml_mse:.2f})'.replace('.', ','))
 
